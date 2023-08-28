@@ -182,3 +182,14 @@ body {
     border-color: #f9faf8;
     margin-top: 100px;
 }
+
+#pagebot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 18px;
+}
