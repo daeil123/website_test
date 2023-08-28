@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
-    gap: 100px;
+    gap: 50px;
     justify-content: center;
     align-items: center;
     margin-bottom: 110px;
@@ -107,6 +107,7 @@ body {
     flex-direction: row;
     gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .beach_pic {
@@ -123,10 +124,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
     align-items: end;
     background-color: #e5e7eb;
 }
@@ -141,4 +141,44 @@ body {
     text-align: left;
     font-weight: 800;
     font-size: 36px;
+}
+
+.sign-up {
+
+}
+
+.s-u-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-u-box-info {
+}
+
+.s-u-box-info-title {
+    font-weight: 800;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.s-u-box-info-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: -10px;
+}
+
+.s-u-box-but {
+    background-color: #3882f6;
+    color: white;
+    margin: 50px;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    border-color: #f9faf8;
+    margin-top: 100px;
 }
